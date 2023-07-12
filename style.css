@@ -207,3 +207,41 @@ body {
 	font-size: 70px;
 	line-height: 112px;
 }
+
+/* features ends */
+
+.after-school-profit {
+	height: 485px;
+	background-color: #f9f9f9;
+	border: 1px solid red; 
+}
+
+.after-school-profit h2 {
+	margin: 0;
+	padding: 0;
+	margin-top: 100px;
+	margin-left: 380px;
+	font-family: "Jost", sans-serif;
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 80px;
+	color: #141024;
+}
+
+.profit-list  {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	padding-top: 140px;
+}
+
+.profit-list li {
+	display: inline-block;
+	vertical-align: middle;
+	width: 360px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 29px;
+	color: #141024b2;
+}
