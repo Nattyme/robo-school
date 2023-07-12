@@ -109,6 +109,27 @@ body {
 	padding: 25px 54px;
 	border-radius: 5px;
 	background-color: #d52027;
+	text-decoration: none;
+	color: #ffffff;
+	}
+	
+.btn:hover {
+	color: rgba(255, 255, 255, 0.8);
+}
+	
+.btn-transparent {
+	background: #ffffff;
+	color: #d52027;
+
+}
+
+.btn-transparent:hover {
+	color:  #a8191e;
+}
+
+.btn-blue {
+	width: 500px;
+	background-color: #141024;
 }
 
 
