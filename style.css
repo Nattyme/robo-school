@@ -402,7 +402,6 @@ body {
 
 .order-form {
 	width: 500px;
-	margin-bottom: 87px;
 }
 
 .order-form input {
@@ -423,4 +422,31 @@ body {
 	margin-left: 440px;
 	border: 1px solid white;
 	width: 396px;
+}
+/* order ends */
+
+.footer {
+	height: 159px;
+	background-color: #141024;
+}
+
+.footer-left {
+	float: left;
+	margin-left: 100px;
+	margin-top: 40px;
+	font-weight: 400;
+	line-height: 27px;
+	text-align: left;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.footer-right {
+	float: right;
+}
+
+.footer-logo {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 48px;
 }
