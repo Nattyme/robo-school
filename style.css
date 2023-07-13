@@ -380,3 +380,38 @@ body {
 	background-color: #141024;
 
 }
+
+.order-course {
+	position: relative;
+	height: 460px;
+	margin-top: 120px;
+	background-color: #d52027;
+}
+
+.order-course .order-promo {
+	margin: 0;
+	padding: 0;
+	margin-left: 440px;
+	padding-top: 106px;
+	width: 476px;
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 47px;
+}
+
+.order-course .order-tip {
+	margin-left: 440px;
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: 400;
+}
+
+.order-course .order-form {
+	position: absolute;
+	top: 106px;
+	right: 440px;
+	border :1px  solid blue;
+	width: 500px;
+	margin-left: 980px;
+}
+
