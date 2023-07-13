@@ -221,7 +221,7 @@ body {
 	padding: 0;
 	margin-top: 100px;
 	margin-left: 380px;
-	font-family: "Jost", sans-serif;
+	
 	font-weight: 600;
 	font-size: 50px;
 	line-height: 80px;
@@ -233,15 +233,28 @@ body {
 	padding: 0;
 	float: left;
 	list-style: none;
-	padding-top: 140px;
+	margin-top: 60px;
+	margin-left: 380px;
 }
 
 .profit-list li {
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
+	text-align: left;
 	width: 360px;
 	font-weight: 400;
 	font-size: 18px;
-	line-height: 29px;
+	line-height: 28.8px;
 	color: #141024b2;
 }
+
+.profit-list li h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 38.4px;
+	color: #141024;
+}
+
+
