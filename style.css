@@ -388,6 +388,7 @@ body {
 	height: 460px;
 	background-color: #d52027;
 	border: 5px solid black;
+	position: relative;
 }
 
 .order-course .order-promo {
@@ -422,6 +423,12 @@ body {
 	margin-left: 440px;
 	border: 1px solid white;
 	width: 396px;
+}
+
+.order-course img {
+	position: absolute;
+	bottom: 0;
+	background-repeat: repeat;
 }
 /* order ends */
 
