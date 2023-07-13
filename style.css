@@ -212,8 +212,7 @@ body {
 
 .after-school-profit {
 	height: 485px;
-	background-color: #f9f9f9;
-	border: 1px solid red; 
+	background-color: #f9f9f9; 
 }
 
 .after-school-profit h2 {
@@ -239,6 +238,7 @@ body {
 
 .profit-list li {
 	display: inline-block;
+	margin-right: 40px;
 	vertical-align: top;
 	text-align: left;
 	width: 360px;
@@ -257,4 +257,36 @@ body {
 	color: #141024;
 }
 
+/*profit ends */
 
+.teachers {
+	width: 1560px;
+	margin-left: 380px;
+	border: 1px solid red;
+}
+
+.teachers-list {
+	margin: 0;
+	padding: 0;
+}
+
+.teachers-list li {
+	border: 1px solid blue;
+	float: left;
+	width: 360px;
+	margin-right: 40px;
+}
+
+.teachers-list li:last-child {
+	margin-right: 0;
+}
+
+.teachers-list li h4 {
+	margin: 0;
+	margin-top: 20px;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 38.4px;
+	color: #141024;
+	
+}
