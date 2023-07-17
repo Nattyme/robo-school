@@ -28,7 +28,7 @@ sliderItems.forEach(function(slide, index) {
 		
 		
 		// Рассчитываем индекс следующего слайда
-		let nextSlideIndex;
+		const nextSlideIndex;
 		if (index + 1 === sliderItems.length) {
 			nextSlideIndex = 0;	
 		} else {
@@ -54,4 +54,14 @@ btnNext.onclick = function(){
 	currentSlide.classList.add('hidden');
 	currentSlide.removeAttribute('data-active');
 	
+	//Показываем след слайд
+	const nextSlideIndex;
+		if (currentSlideIndex + 1 === sliderItems.length) {
+			nextSlideIndex = 0;	
+		} else {
+			nextSlideIndex = currentSlideIndex + 1;
+		}
+	const nextSlide = slider.querySelector(`[data-index="${nextSlideIndex}"]`);
+	nextSlide.classList.remove('hidden');
+	nextSlide.setAttribute('data-active', '');
 }
