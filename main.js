@@ -49,6 +49,9 @@ btnNext.onclick = function(){
 	
 	//Скрываем текущий слайд
 	const currentSlide = slider.querySelector('[data-active]');
-	const currentSlideIndex = currentSlide.dataset.index;
-	console.log(currentSlideIndex);
+	const currentSlideIndex = +currentSlide.dataset.index;
+	
+	currentSlide.classList.add('hidden');
+	currentSlide.removeAttribute('data-active');
+	
 }
