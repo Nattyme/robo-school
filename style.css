@@ -325,6 +325,23 @@ body {
 	text-decoration: none;
 	color: white;
 }
+
+.paginator .prev {
+	background-image: url("Path.png");
+	background-repeat: no-repeat;
+	background-position: 0 -5px;
+	text-indent: -1000px;
+	border-radius: 50%;
+}
+
+.paginator .next {
+	margin-left: 20px;
+	background-image: url("arrows.png");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	text-indent: -1000px;
+	border-radius: 50%;
+}
 /* teachers ends */
 
 .course-packs {
