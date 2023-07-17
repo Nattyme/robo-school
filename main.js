@@ -47,4 +47,8 @@ sliderItems.forEach(function(slide, index) {
 btnNext.onclick = function(){
 	console.log('Next Slide');
 	
+	//Скрываем текущий слайд
+	const currentSlide = slider.querySelector('[data-active]');
+	const currentSlideIndex = currentSlide.dataset.index;
+	console.log(currentSlideIndex);
 }
