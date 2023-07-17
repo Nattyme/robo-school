@@ -278,42 +278,19 @@ body {
 /*profit ends */
 
 .teachers {
-	width: 1560px;
+	width: 1540px;
+	height: 886px;
 	margin-left: 380px;
-	border: 1px solid red;
+	background-color: #e6e6fa;
 }
 
-.teachers-list {
-	margin: 0;
-	padding: 0;
-}
 
-.teachers-list li {
-	border: 1px solid blue;
-	float: left;
-	width: 360px;
-	margin-right: 40px;
-	color: #141024b2;
-}
 
-.teachers-list li:last-child {
-	margin-right: 0;
-}
-
-.teachers-list li h4 {
-	margin: 0;
-	margin-top: 20px;
-	font-weight: 600;
-	font-size: 24px;
-	line-height: 38.4px;
-	color: #141024;
-}
-
-.paginator {
+.controls {
 	width: 110px;
 }
 
-.paginator a {
+.controls a {
 	display: inline-block;
 	min-width: 40px;
 	height: 40px;
@@ -326,21 +303,23 @@ body {
 	color: white;
 }
 
-.paginator .prev {
-	background-image: url("Path.png");
+.controls .prev {
 	background-repeat: no-repeat;
 	background-position: 0 -5px;
 	text-indent: -1000px;
 	border-radius: 50%;
 }
 
-.paginator .next {
+.controls .next {
 	margin-left: 20px;
-	background-image: url("arrows.png");
 	background-position: 0 0;
 	background-repeat: no-repeat;
 	text-indent: -1000px;
 	border-radius: 50%;
+}
+
+.hidden {
+	display: none;
 }
 /* teachers ends */
 
