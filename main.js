@@ -28,7 +28,7 @@ sliderItems.forEach(function(slide, index) {
 		
 		
 		// Рассчитываем индекс следующего слайда
-		const nextSlideIndex;
+		let nextSlideIndex;
 		if (index + 1 === sliderItems.length) {
 			nextSlideIndex = 0;	
 		} else {
@@ -55,13 +55,13 @@ btnNext.onclick = function(){
 	currentSlide.removeAttribute('data-active');
 	
 	//Показываем след слайд
-	const nextSlideIndex;
+	let nextSlideIndex;
 		if (currentSlideIndex + 1 === sliderItems.length) {
 			nextSlideIndex = 0;	
 		} else {
 			nextSlideIndex = currentSlideIndex + 1;
 		}
-	const nextSlide = slider.querySelector(`[data-index="${nextSlideIndex}"]`);
+	const nextSlide = slider.querySelector(`[data-index= "${nextSlideIndex}"]`)
 	nextSlide.classList.remove('hidden');
 	nextSlide.setAttribute('data-active', '');
 }
