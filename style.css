@@ -309,6 +309,22 @@ body {
 	color: #141024;
 }
 
+.paginator {
+	width: 110px;
+}
+
+.paginator a {
+	display: inline-block;
+	min-width: 40px;
+	height: 40px;
+	background-color: rgba(20, 16, 36, 1);
+	
+	text-align: center;
+	line-height: 40px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
 /* teachers ends */
 
 .course-packs {
