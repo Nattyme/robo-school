@@ -7,9 +7,7 @@ sliderItems.forEach(function(slide, index) {
 	console.log(slide);
 	
 	//Скрываем все слайды, кроме первого 
-	if(index !== 0) {
-		slide.classList.add('hidden');	
-	}
+	if(index !== 0) slide.classList.add('hidden');	
 	
 	//Добавляем индексы
 	slide.dataset.index = index;
@@ -28,12 +26,7 @@ sliderItems.forEach(function(slide, index) {
 		
 		
 		// Рассчитываем индекс следующего слайда
-		let nextSlideIndex;
-		if (index + 1 === sliderItems.length) {
-			nextSlideIndex = 0;	
-		} else {
-			nextSlideIndex = index + 1;
-		}
+		const nextSlideIndex = index + 1 === sliderItems.length ? 0 : index + 1;
 		
 		//Находим след слайд 
 		const nextSlide = slider.querySelector(`[data-index= "${nextSlideIndex}"]`)
@@ -55,13 +48,7 @@ btnNext.onclick = function(){
 	currentSlide.removeAttribute('data-active');
 	
 	//Показываем след слайд
-	let nextSlideIndex;
-		if (currentSlideIndex + 1 === sliderItems.length) {
-			nextSlideIndex = 0;	
-		} else {
-			nextSlideIndex = currentSlideIndex + 1;
-		}
-	const nextSlide = slider.querySelector(`[data-index= "${nextSlideIndex}"]`)
-	nextSlide.classList.remove('hidden');
-	nextSlide.setAttribute('data-active', '');
+	const nextSlideIndex = currentSlideIndex + 1 === sliderItems.length ? 0 : currentSlideIndex + 1;
+
+	
 }
