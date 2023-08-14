@@ -3,37 +3,39 @@
 <head>
 <meta charset="utf-8">
 <title>RoboSchool</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./css/main.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-<div  class="page-header">
 
-
-<div class="header-top clearfix">
-<div class="header-logo">
-Robo.School
-</div>
-<ul class="main-nav">
-<li><a href="#">О школе</a></li>
-<li><a href="#">Тренеры</a></li>
-<li><a href="#">Стоимость</a></li>
-</ul>
-<div class="contact-phone">+7&nbsp;800&nbsp;000&nbsp;11&nbsp;22</div>
-</div>
-<div class="header-promo">
-<div class="promo-text">
-<h1>Robo School</h1>
-<p class="title-tip">Курсы повышения квалификации по робототехнике для педагогов начальной школы</p>
-<a class="btn" href="#">Записаться на курс</a>
-</div>
-<img src="img/ellipse.png" alt="Эллипс" width="783" height="783">
-<img src="img/female-student.png" alt="Улыбающаяся девушка" width="516" height="917">
+<header class="header">
+<div class="container">
+<div class="header__top">
+    <div class="header__logo"></div>
+    <div class="header__nav"></div>
+    <div class="header__contact-phone"></div>
 </div>
 
-
+<div class="header__promo">
+    <div class="header__promo-text">
+        <p class="title-tip">Курсы повышения квалификации по робототехнике для педагогов начальной школы</p>
+    </div>
+    <div class="header__button">
+        <a class="btn" href="#">Записаться на курс</a>
+    </div>
+</div>
 </div>
 
-<div class="school-about">
+<div class="header__photo"></div>
+
+</div>
+</header>
+
+
+
+<div class="school-about none">
 <div  class="container">
 <div class="school-description">
 <span>Robo School</span>&nbsp;–&nbsp;учреждение для формирования кадрового педагогического резерва в сфере робототехники<br> и программирования
@@ -53,7 +55,7 @@ Robo.School
 </div>
 </div>
 
-<div class="after-school-profit clearfix">
+<div class="after-school-profit clearfix none">
 <h2>Что вы получите после курса</h2>
 <ul class="profit-list">
 <li>
@@ -72,7 +74,7 @@ Robo.School
 </ul>
 </div>
 
-<div class="teachers">
+<div class="teachers none">
 <div class="slider" id="slider">
 <div>
 <img src="img/IrinaLaim.jpg" alt="Slide 01" width="360" height="500">
@@ -106,14 +108,14 @@ Robo.School
 </div>
 </div>
 
-<div class="controls">
+<div class="controls none">
 <a id="btnPrev">Назад</a>
 <a  id="btnNext">Вперед</a>
 </div>
 
 </div>
 
-<div class="course-packs">
+<div class="course-packs none">
 <h2>Выберите нужный пакет</h2>
 <ul class="course-types clearfix">
 <li class="course-type">
@@ -149,7 +151,7 @@ Robo.School
 </ul>
 </div>
 
-<div class="order-course">
+<div class="order-course none">
 <h2 class="order-promo">Запишитесь на курс<br> со скидкой 10%</h2>
 <p class="order-tip">Акция действительна до 10 марта 2022 года</p>
 <form class="order-form">
