@@ -5,10 +5,60 @@
 	display: none;
 }
 
+body {
+	font-family: 'Jost', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+
 .container {
 	width: 1760px;
 	margin: 0 auto;
 	padding: 0 20px;
+}
+
+/* Header */ 
+
+.header {
+	color: #fff;
+	background-color: #141024;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0;
+}
+
+.nav__logo {
+}
+
+.nav__list {
+	display: flex;
+	width: 324px;
+	justify-content: space-between;
+}
+
+.nav__list-item {
+}
+.nav__list-link {
+}
+.nav__phone {
+}
+
+.header__promo {
+	display: flex;
+	justify-content: space-between;
+}
+.header__promo-text {
+}
+.title-tip {
+}
+.header__button {
+}
+.btn {
+}
+.header__photo {
 }
 
 
