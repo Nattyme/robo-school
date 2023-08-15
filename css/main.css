@@ -14,14 +14,14 @@ body {
 
 .container-wide {
 	max-width: 1760px;
+	height: 100%;
 	margin: 0 auto;
 	padding: 0 20px;
 }
 
 .container {
-	max-width: 1370px;
+	max-width: 1330px;
 	margin: 0 auto;
-	padding: 0 20px;
 }
 
 

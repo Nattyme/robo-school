@@ -1,15 +1,15 @@
 .header {
 	color: #fff;
 	background-color: #141024;
-	width: 100%;
-	height: 1080;
+	height: 1080px;
+    width: 1920px;
 }
 
 .nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 30px 0;
+	padding-top: 38px;
 }
 
 .nav__logo {
@@ -44,27 +44,29 @@
 }
 
 .header__bottom {
-	display: flex;
-	justify-content: space-between;
-	gap: 20px;
+    display: flex;
+    gap: 28px;
 }
 
 .header__promo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
+}
+
+.header__promo-title {
 }
 
 .header__promo-text {
-
 }
-
-.title-tip {
+.header__promo-disc {
 }
 .header__promo-button {
 }
-.btn {
+.button {
 }
-.header__promo-photo {
+.button-link {
+}
+.header__photo {
+}
+.header__photo-img {
+    width: 783px;
+    height: 917px;
 }
