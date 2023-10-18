@@ -20,7 +20,7 @@ body {
 }
 
 
-.container-wide {
+.container--wide {
 	max-width: 1750px;
 	padding: 0 15px;
 }
