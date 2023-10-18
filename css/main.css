@@ -12,17 +12,21 @@ body {
 	font-weight: 400;
 }
 
-.container-wide {
-	max-width: 1760px;
+.container {
+	max-width: 1357px;
 	height: 100%;
 	margin: 0 auto;
-	padding: 0 20px;
+	padding: 0 15px;
 }
 
-.container {
-	max-width: 1330px;
-	margin: 0 auto;
+
+.container-wide {
+	max-width: 1750px;
+	padding: 0 15px;
 }
+
+
+
 
 
 
