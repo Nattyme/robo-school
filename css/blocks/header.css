@@ -1,18 +1,21 @@
 .header {
-	background-color: #141024;
 	height: 1080px;
-    width: 1920px;
+	background-color: #141024;
 	color: #fff;
 }
 
 .nav {
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
 	padding-top: 38px;
+	padding-bottom: 92px;
 }
 
 .nav__logo {
+	width: 228px;
+}
+
+.logo {
 	font-size: 30px;
 	font-family: 'Jost', sans-serif;
 	font-weight: 700;
@@ -21,6 +24,7 @@
 }
 
 .nav__list {
+	padding-left: 470px;
 	display: flex;
 	column-gap: 40px;
 	font-size: 20px;
@@ -39,6 +43,10 @@
 }
 
 .nav__phone {
+	padding-left: 443px;
+}
+
+.phone {
 	font-size: 30px;
 	font-weight: 600;
 }
@@ -47,13 +55,12 @@
 
 .header__row {
 	display: flex;
-	flex-direction: column;
 	justify-content: space-between;
 }
 
 .header__row-data {
-	padding-top: 266px;
 	max-width: 516px;
+	margin-top: 274px;
 }
 
 .header__row-title {
@@ -72,16 +79,21 @@
 	line-height: 160%; /* 32px */
 }
 
+.header__row-photo {
+	position: relative;
+	max-width: 783px;
+	margin-top: 92px;
+}
 
+.header__photo {
+}
 
-.header__row-btn {
+.header__photo--ellipse {
 	
 }
 
-
-
-.header__row-photo {
-}
-
-.header__row-photo-img {
+.header__photo--student {
+	position: absolute;
+	top: 0;
+	left: 0;
 }
