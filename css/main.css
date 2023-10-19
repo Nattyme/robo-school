@@ -14,16 +14,18 @@ body {
 }
 
 .container {
-	max-width: 1357px;
+	max-width: 1750px;
 	height: 100%;
 	margin: 0 auto;
 	padding: 0 15px;
 }
 
-.container--wide {
-	max-width: 1750px;
-	padding: 0 15px;
+.container--narrow {
+	max-width: 1357px;
+	height: 100%;
+	margin: 0 98px 0 265px;
 }
+
 
 
 

@@ -1,18 +1,23 @@
 .header {
 	height: 1080px;
+	padding-top: 30px;
 	background-color: #141024;
 	color: #fff;
 }
 
 .nav {
+	padding-bottom: 84px;
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
-	padding-top: 38px;
-	padding-bottom: 92px;
 }
 
 .nav__logo {
 	width: 228px;
+}
+
+.nav__logo + * {
+	margin-left: 470px;
 }
 
 .logo {
@@ -24,18 +29,23 @@
 }
 
 .nav__list {
-	padding-left: 470px;
 	display: flex;
-	column-gap: 40px;
 	font-size: 20px;
+}
+
+.nav__list + * {
+	margin-left: 443px;
 }
 
 .nav__list-link {
 	text-align: center;
-	font-size: 20px;
-	line-height: 1.6;
+	line-height: 160%;
 	color: #FFF;
 	transition: opacity 0.2s ease-in;
+}
+
+.nav__list-item + * {
+	margin-left: 40px;
 }
 
 .nav__list-link:hover {
@@ -43,7 +53,6 @@
 }
 
 .nav__phone {
-	padding-left: 443px;
 }
 
 .phone {
@@ -56,6 +65,7 @@
 .header__row {
 	display: flex;
 	justify-content: space-between;
+	column-gap: 28px;
 }
 
 .header__row-data {
@@ -82,18 +92,19 @@
 .header__row-photo {
 	position: relative;
 	max-width: 783px;
-	margin-top: 92px;
 }
 
 .header__photo {
 }
 
 .header__photo--ellipse {
-	
+	padding-top: 100px;
 }
 
 .header__photo--student {
+	width: 515px;
+	height: 917px;
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: 132px;
 }
