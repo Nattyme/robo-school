@@ -11,13 +11,35 @@
 }
 
 .teachers__row {
-
 }
 
 .teacher__list {
-
 }
 
-.teacher__list-card {
+.teacher__card {
+}
 
+.teacher__card-photo {
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.teacher__card-name {
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 160%; /* 38.4px */
+    color: #141024;
+}
+
+.teacher__card-specialization {
+    margin-bottom: 20px;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+    color: var(--secondary);
+}
+
+.btn {
 }
