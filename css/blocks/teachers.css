@@ -10,15 +10,16 @@
     line-height: 160%; /* 80px */
 }
 
-.teachers__row {
+.teachers__slider {
 }
 
-.teacher__list {
+.slider {
     display: flex;
     column-gap: 15px;
+    padding-bottom: 60px;
 }
 
-.teacher__card + * {
+.slider__item + * {
     margin-left: 25px;
 }
 
@@ -44,5 +45,16 @@
     color: var(--secondary);
 }
 
-.btn {
+.slider-btn {
+    margin-left: 1140px;
+    width: 40px;
+    height: 40px;
+}
+
+.btn-prev {
+    background-image: url(./../../img/teachers/arrow-left.svg);
+}
+
+.btn-next {
+    background-image: url(./../../img/teachers/arrow-right.svg);
 }
