@@ -1,8 +1,17 @@
 @import "./reset.css";
 @import "./blocks/btn.css";
 @import "./blocks/header.css";
+@import "./blocks/statistic.css";
 /* font-family: 'Jost', sans-serif; */
 
+:root {
+	--container-width: 1750px;
+	--container-padding: 15px;
+	--secondary: rgba(20, 16, 36, 0.70);
+	--red: #D52027;
+  }
+
+/* utility */
 .none {
 	display: none;
 }
@@ -11,13 +20,15 @@ body {
 	font-family: 'Jost', sans-serif;
 	font-size: 18px;
 	font-weight: 400;
+	color: #141024;
 }
 
+/* Grid */
 .container {
-	max-width: 1750px;
+	max-width: var(--container-width);
 	height: 100%;
 	margin: 0 auto;
-	padding: 0 15px;
+	padding: 0 var(--container-padding);
 }
 
 .container--narrow {

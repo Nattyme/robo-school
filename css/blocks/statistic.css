@@ -1,0 +1,46 @@
+.statistic {
+    padding: 120px 0;
+}
+
+.statistic__disc {
+    margin-bottom: 60px;
+    max-width: 891px;
+    font-size: 30px;
+    line-height: 160%;
+}
+
+.statistic__title {
+    font-weight: 600;
+    line-height: 160%; /* 48px */
+}
+
+.statistic__info {
+    display: flex;
+    column-gap: 15px;
+}
+
+.info__data {
+    max-width: 260px;
+}
+
+.info__data +  * {
+    margin-left: 25px;
+}
+
+.info__data:last-child {
+    margin-left: 64px;
+}
+
+.info__data-number {
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 160%; /* 112px */
+    color: var(--red);
+}
+
+.info__data-text {
+    color: var(--secondary);
+    font-size: 18px;
+    line-height: 160%; /* 28.8px */
+}
+
