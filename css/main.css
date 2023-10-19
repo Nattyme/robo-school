@@ -3,6 +3,7 @@
 @import "./blocks/header.css";
 @import "./blocks/statistic.css";
 @import "./blocks/profit.css";
+@import "./blocks/teachers.css";
 /* font-family: 'Jost', sans-serif; */
 
 :root {
@@ -37,6 +38,11 @@ body {
 	height: 100%;
 	margin: 0 98px 0 265px;
 }
+
+.container-right {
+	padding-left: calc((100% - var(--container-width)) / 2 + var(--container-padding)
+	);
+  }
 
 
 
