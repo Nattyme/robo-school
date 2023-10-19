@@ -1,0 +1,36 @@
+.profit {
+    padding: 100px 0;
+    background-color: #F9F9F9;
+
+}
+
+.profit-title {
+    padding-bottom: 60px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 160%; /* 80px */
+}
+
+.profit__list {
+    display: flex;
+    column-gap: 15px;
+}
+
+.profit__item {
+    max-width: 360px;
+}
+
+.profit__item + * {
+    margin-left: 25px;
+}
+
+.profit__item-name {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 160%; /* 38.4px */
+}
+
+.profit__item-text {
+    color: var(--secondary);
+    line-height: 160%; /* 28.8px */
+}
