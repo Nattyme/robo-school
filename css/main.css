@@ -31,7 +31,9 @@ body {
 .container {
 	max-width: var(--container-width);
 	height: 100%;
-	margin: 0 98px 0 265px;
+	/*margin: 0 98px 0 265px;*/
+	margin-left: 265px;
+	
 	padding: 0 var(--container-padding);
 }
 
@@ -43,8 +45,7 @@ body {
 }
 
 .container-right {
-	padding-left: calc((100% - (var(--container-width))) / 2 + var(--container-padding)
-	);
+	padding-left: calc((100% - 1357px)/2 + 100px);
   }
 
 
