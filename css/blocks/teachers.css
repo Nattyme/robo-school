@@ -14,9 +14,12 @@
 }
 
 .teacher__list {
+    display: flex;
+    column-gap: 15px;
 }
 
-.teacher__card {
+.teacher__card + * {
+    margin-left: 25px;
 }
 
 .teacher__card-photo {

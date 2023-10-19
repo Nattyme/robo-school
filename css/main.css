@@ -7,7 +7,8 @@
 /* font-family: 'Jost', sans-serif; */
 
 :root {
-	--container-width: 1750px;
+	--container-width: 1357px;
+	--container-wide-width: 1750px;
 	--container-padding: 15px;
 	--secondary: rgba(20, 16, 36, 0.70);
 	--red: #D52027;
@@ -30,18 +31,19 @@ body {
 .container {
 	max-width: var(--container-width);
 	height: 100%;
+	margin: 0 98px 0 265px;
+	padding: 0 var(--container-padding);
+}
+
+.container-wide {
+	max-width: var(--container-wide-width);
+	height: 100%;
 	margin: 0 auto;
 	padding: 0 var(--container-padding);
 }
 
-.container--narrow {
-	max-width: 1357px;
-	height: 100%;
-	margin: 0 98px 0 265px;
-}
-
 .container-right {
-	padding-left: calc((100% - var(--container-width)) / 2 + var(--container-padding)
+	padding-left: calc((100% - (var(--container-width))) / 2 + var(--container-padding)
 	);
   }
 
