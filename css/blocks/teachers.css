@@ -3,7 +3,6 @@
     overflow-x: hidden;
 }
 
-
 .teachers__title {
     margin-bottom: 60px;
     font-size: 50px;
@@ -12,29 +11,33 @@
 }
 
 .teachers__slider {
-    display: flex;
     width: 1960px;
+    display: flex;
 }
+
 
 /* Slider*/
-
 .slider {
-    display: flex;
-    column-gap: 15px;
-    padding-bottom: 60px;
     flex-shrink: 0;
+    /*padding-bottom: 60px; */
 }
 
-.slider__item + * {
-    margin-left: 25px;
+.slider-item {
+    
 }
 
-.teacher__card-photo {
+.slider__item-img-wrapper {
+    width: 360px;
+}
+
+
+.slider__item-img {
+    width: 360px;
+    height: 500px;
     border-radius: 20px;
-    margin-bottom: 20px;
 }
 
-.teacher__card-name {
+.slider__item-name {
     font-family: 'Jost', sans-serif;
     font-size: 24px;
     font-weight: 600;
@@ -42,7 +45,7 @@
     color: #141024;
 }
 
-.teacher__card-specialization {
+.slider__item-profession {
     margin-bottom: 20px;
     font-family: 'Jost', sans-serif;
     font-size: 18px;

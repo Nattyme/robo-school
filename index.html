@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <title>RoboSchool</title>
-<link rel="stylesheet" href="./css/main.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+<link rel="stylesheet" href="./css/main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
@@ -111,42 +111,57 @@
         </div>
     </section>
     <section class="teachers">
-        <div class="container-right">   
+        <div class="container-right">
             <h2 class="teachers__title">Профессиональные тренеры</h2>
             <div class="teachers__slider">
                 <div class="slider">
-                    <div class="slider__item"><a href="#!">
-                        <img class="teacher__card-photo" src="./img/teachers/IrinaLaim.jpg" alt="Irina photo">
-                        <h3 class="teacher__card-name">Ирина Лайм</h3>
-                        <p class="teacher__card-specialization">преподаватель по робототехнике</p>
-                        <a href="#!" class="btn btn-white">Подробнее</a>
-                    </a></div>
-                    <div class="slider__item"><a href="#!">
-                        <img class="teacher__card-photo" src="./img/teachers/MarinaOsipova.jpg" alt="Marina photo">
-                        <h3 class="teacher__card-name">Марина Орлова</h3>
-                        <p class="teacher__card-specialization">преподаватель по робототехнике</p>
-                        <a href="#!" class="btn btn-white">Подробнее</a>
-                    </a></div>
-                    <div class="slider__item"><a href="#!">
-                        <img class="teacher__card-photo" src="./img/teachers/MaximPetrov.jpg" alt="Maxim photo">
-                        <h3 class="teacher__card-name">Максим Петров</h3>
-                        <p class="teacher__card-specialization">преподаватель по программированию</p>
-                        <a href="#!" class="btn btn-white">Подробнее</a>
-                    </a></div>
-                    <div class="slider__item"><a href="#!">
-                        <img class="teacher__card-photo" src="./img/teachers/KonstantinNazarov.jpg" alt="Konstantin photo">
-                        <h3 class="teacher__card-name">Константин Назаров</h3>
-                        <p class="teacher__card-specialization">преподаватель по робототехнике</p>
-                        <a href="#!" class="btn btn-white">Подробнее</a>
-                    </a></div>
-                    <div class="slider__item"><a href="#!">
-                        <img class="teacher__card-photo" src="./img/teachers/LizaVesna.jpg" alt="Liza photo">
-                        <h3 class="teacher__card-name">Лиза Весенняя</h3>
-                        <p class="teacher__card-specialization">преподаватель по программированию</p>
-                        <a href="#!" class="btn btn-white">Подробнее</a>
-                    </a></div>
+                    <div class="owl-carousel">
+                        <div class="slider__item">
+                            <div class="slider__item-img-wrapper">
+                            <img class="slider__item-img" src="./img/teachers/IrinaLaim.jpg" alt="Irina photo" width="360" height="500">
+                            </div>
+                            <h3 class="slider__item-name">Ирина Лайм</h3>
+                            <p class="slider__item-profession">преподаватель по робототехнике</p>
+                            <a href="#!" class="btn btn-white">Подробнее</a>
+                    </div>
+                        <div class="slider__item">
+                            <div class="slider__item-img-wrapper">
+                            <img class="slider__item-img" src="./img/teachers/MarinaOsipova.jpg" alt="Marina photo" width="360" height="500">
+                            </div>
+                            <h3 class="slider__item-name">Марина Орлова</h3>
+                            <p class="slider__item-profession">преподаватель по робототехнике</p>
+                            <a href="#!" class="btn btn-white">Подробнее</a>
+                    </div>
+                        <div class="slider__item">
+                            <div class="slider__item-img-wrapper">
+                            <img class="slider__item-img" src="./img/teachers/MaximPetrov.jpg" alt="Maxim photo" width="360" height="500">
+                            </div>
+                            <h3 class="slider__item-name">Максим Петров</h3>
+                            <p class="slider__item-profession">преподаватель по программированию</p>
+                            <a href="#!" class="btn btn-white">Подробнее</a>
+                    </div>
+                        <div class="slider__item">
+                            <div class="slider__item-img-wrapper">
+                            <img class="slider__item-img" src="./img/teachers/KonstantinNazarov.jpg" alt="Konstantin photo" width="360" height="500">
+                            </div>
+                            <h3 class="slider__item-name">Константин Назаров</h3>
+                            <p class="slider__item-profession">преподаватель по робототехнике</p>
+                            <a href="#!" class="btn btn-white">Подробнее</a>
+                    </div>
+                        <div class="slider__item">
+                            <div class="slider__item-img-wrapper">
+                            <img class="slider__item-img" src="./img/teachers/LizaVesna.jpg" alt="Liza photo" width="360" height="500">
+                            </div>
+                            <h3 class="slider__item-name">Лиза Весенняя</h3>
+                            <p class="slider__item-profession">преподаватель по программированию</p>
+                            <a href="#!" class="btn btn-white">Подробнее</a>
+                    </div>
                     
-                
+                    </div>
+                    
+                    </div>
+                    
+                <!--
                 <div class="slider__controller">
                     <button class="slider-btn btn-prev">
                         <img src="./img/teachers/arrow-prev.svg" alt="">
@@ -155,9 +170,8 @@
                         <img src="./img/teachers/arrow-next.svg" alt="">
                     </button>
                 </div>
+                -->
                 </div>
-            </div>
-            
         </div>
     </section>
 </main>
