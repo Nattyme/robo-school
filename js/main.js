@@ -3,5 +3,6 @@ $(document).ready(function(){
 		autoWidth: true,
 		margin: 40,
 		loop: true,
+		numbver: 3,
 	});
   });
