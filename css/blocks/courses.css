@@ -1,0 +1,57 @@
+.courses {
+    padding: 60px 0 120px;
+}
+
+.courses__heading {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 160%; /* 80px */
+}
+
+.courses__row {
+    margin-top: 60px;
+}
+
+.courses__list {
+    display: flex;
+}
+
+.courses__card {
+    padding: 40px;
+    width: 360px;
+    height: 460px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.courses__card + * {
+    margin-left: 40px;
+}
+
+.courses__card-link {
+}
+
+.courses__card-name {
+    margin-bottom: 63px;
+
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 160%; /* 48px */
+    color: #141024;
+}
+
+.courses__card-price {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.courses__card-text {
+    margin-bottom: auto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+}
+
+.courses__card-btn {
+}
