@@ -1,0 +1,26 @@
+.card {
+    width: 360px;
+}
+
+.card__photo {
+    margin-bottom: 20px;
+}
+
+.card__img {
+    border-radius: 20px;
+}
+
+.card__desc {
+    
+}
+
+.card__title {
+    margin-bottom: 10px;
+}
+
+.card__text {
+    margin-bottom: 20px;
+}
+
+.card__read-more {
+}

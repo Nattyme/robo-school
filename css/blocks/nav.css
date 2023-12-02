@@ -1,0 +1,45 @@
+.nav__wrapper {
+    padding-bottom: 84px;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav__logo + * {
+	margin-left: 470px;
+}
+
+.nav__list {
+	display: flex;
+	font-size: 20px;
+}
+
+.nav__list + * {
+	margin-left: 443px;
+}
+
+.nav__list-link {
+	text-align: center;
+	line-height: 160%;
+	color: #FFF;
+	transition: opacity 0.2s ease-in;
+}
+
+.nav__list-item + * {
+	margin-left: 40px;
+}
+
+.nav__list-link:hover {
+	opacity: 0.8;
+}
+
+.nav__phone {
+}
+
+.phone {
+	font-size: 30px;
+	font-weight: 600;
+}

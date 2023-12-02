@@ -1,9 +1,12 @@
 @import "./reset.css";
 @import "./blocks/btn.css";
 @import "./blocks/header.css";
+@import "./blocks/nav.css";
+@import "./blocks/logo.css";
 @import "./blocks/statistic.css";
 @import "./blocks/profit.css";
 @import "./blocks/teachers.css";
+@import "./blocks/card.css";
 @import "./blocks/courses.css";
 /* font-family: 'Jost', sans-serif; */
 

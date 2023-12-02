@@ -15,43 +15,27 @@
     <!-- Header -->
 <header class="header none">
 <div class="container-wide">
-    <nav class="nav">
-    <div class="nav__logo">
-        <h1 class="logo">ROBO.SCHOOL</h1>
-    </div>
-
-    <ul class="nav__list"> 
-        <li class="nav__list-item"><a href="#" class="nav__list-link">О школе</a></li>
-        <li class="nav__list-item"><a href="#" class="nav__list-link">Тренеры</a></li>
-        <li class="nav__list-item"><a href="#" class="nav__list-link">Стоимость</a></li>
-    </ul>
-
-    <div class="nav__phone">
-        <span class="phone">+7 800 000 11 22</span>
-    </div>
-    </nav>
-
-
+    <nav class="nav__wrapper">
+        <nav class="nav">
+            <h2 class="logo">ROBO.SCHOOL</h2>
+            <ul class="nav__list"> 
+                <li class="nav__list-item"><a href="#" class="nav__list-link">О школе</a></li>
+                <li class="nav__list-item"><a href="#" class="nav__list-link">Тренеры</a></li>
+                <li class="nav__list-item"><a href="#" class="nav__list-link">Стоимость</a></li>
+            </ul>
+        
+            <div class="nav__phone">
+                <span class="phone">+7 800 000 11 22</span>
+            </div>
+            </nav>
+        </div>
     <div class="container">
     <div class="header__row">
-      
-        <div class="header__row-data">
-            <h1 class="header__row-title"> ROBO SCHOOL</h1>
-
-            <div class="header__row-disc">
-                <p class="header__row-text">Курсы повышения квалификации по робототехнике для педагогов начальной школы</p>
+        <div class="header__home">
+            <h1 class="header__home-title"> ROBO SCHOOL</h1>
+            <div class="header__home-desc">
+                <p>Курсы повышения квалификации по робототехнике для педагогов начальной школы</p>
             </div>
-
-            <div class="header__row-btn">
-                <a class="btn btn-red" href="#">Записаться на курс</a>
-            </div>
-
-            </div>        
-        <div class="header__row-photo">
-                <img class="header__photo header__photo--ellipse" src="./img/header/Ellipse.svg" alt="Ellipse">
-                <img class="header__photo  header__photo--student" src="./img/header/header-portrait.png" alt="Student photo">
-            </div>  
-
             </div> 
     </div>
 
@@ -59,7 +43,7 @@
 
 </header>
 <main>
-    <section class="statistic none">
+    <section class="statistic">
         <div class="container-wide">
         <div class="container">
             <div class="statistic__disc">
@@ -88,7 +72,7 @@
         </div>
 
     </section>
-    <section class="profit none">
+    <section class="profit">
         <div class="container-wide">
             <div class="container">
              <div class="profit-title">Что вы получите после курса</div>
@@ -110,21 +94,23 @@
             </div>
         </div>
     </section>
-    <section class="teachers none">
+    <section class="teachers">
         <div class="container-right">
             <h2 class="teachers__title">Профессиональные тренеры</h2>
             <div class="teachers__slider">
-                <div class="slider">
-                    <div class="owl-carousel">
-                        <div class="slider__item">
-                            <div class="slider__item-img-wrapper">
-                            <img class="slider__item-img" src="./img/teachers/IrinaLaim.jpg" alt="Irina photo" width="360" height="500">
+                <!-- <div class="slider">
+                    <div class="owl-carousel"> -->
+                        <div class="card">
+                            <div class="card__photo">
+                                <img class="card__img" src="./img/teachers/IrinaLaim.jpg" alt="Irina photo">
                             </div>
-                            <h3 class="slider__item-name">Ирина Лайм</h3>
-                            <p class="slider__item-profession">преподаватель по робототехнике</p>
-                            <a href="#!" class="btn btn-white">Подробнее</a>
-                    </div>
-                        <div class="slider__item">
+                            <div class="card__desc">
+                                <h3 class="card__title">Ирина Лайм</h3>
+                                <p class="card__text">преподаватель по робототехнике</p>
+                                <a href="#!" class="card__read-more">Подробнее</a>
+                            </div> 
+                        </div>
+                        <!-- <div class="slider__item">
                             <div class="slider__item-img-wrapper">
                             <img class="slider__item-img" src="./img/teachers/MarinaOsipova.jpg" alt="Marina photo" width="360" height="500">
                             </div>
@@ -155,11 +141,11 @@
                             <h3 class="slider__item-name">Лиза Весенняя</h3>
                             <p class="slider__item-profession">преподаватель по программированию</p>
                             <a href="#!" class="btn btn-white">Подробнее</a>
-                    </div>
+                    </div> -->
                     
-                    </div>
+                    <!-- </div>
                     
-                    </div>
+                    </div> -->
                     
                 <!--
                 <div class="slider__controller">
@@ -209,8 +195,8 @@
     </section>
 </main>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="./js/main.js"></script>
+<script src="./js/main.js"></script> -->
 </body>
 </html>
