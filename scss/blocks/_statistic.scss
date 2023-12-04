@@ -2,8 +2,21 @@
     padding: 120px 0;
 }
 
-.statistic__title {
+.statistic__top {
+    margin-bottom: 60px;
+}
+
+.statistic__top-title {
+    font-size: 30px;
+    color: #141024;
+
+    & strong {
+        font-weight: 600;
+    }
 }
 
 .statistic__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
 }

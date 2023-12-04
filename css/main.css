@@ -204,4 +204,37 @@ body {
 
 .statistic {
   padding: 120px 0;
+}
+
+.statistic__top {
+  margin-bottom: 60px;
+}
+
+.statistic__top-title {
+  font-size: 30px;
+  color: #141024;
+}
+.statistic__top-title strong {
+  font-weight: 600;
+}
+
+.statistic__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.grid-card {
+  max-width: 260px;
+}
+
+.grid-card__ammount {
+  font-size: 70px;
+  font-weight: 600;
+  color: #D52027;
+}
+
+.grid-card__desc {
+  font-size: 18px;
+  color: rgba(20, 16, 36, 0.7);
 }/*# sourceMappingURL=main.css.map */
