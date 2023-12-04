@@ -1,0 +1,16 @@
+.benefits {
+    padding: 100px 0;
+}
+
+.benefits__title {
+    margin-bottom: 60px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #141024;
+}
+
+.benefits__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}

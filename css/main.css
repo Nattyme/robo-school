@@ -224,17 +224,44 @@ body {
   gap: 40px;
 }
 
-.grid-card {
+.card {
   max-width: 260px;
 }
+.card--width-360 {
+  max-width: 360px;
+}
 
-.grid-card__ammount {
+.card__title {
   font-size: 70px;
   font-weight: 600;
   color: #D52027;
 }
+.card__title--black {
+  font-size: 24px;
+  color: #141024;
+}
+.card__title--margin-20 {
+  margin-bottom: 20px;
+}
 
-.grid-card__desc {
+.card__desc {
   font-size: 18px;
   color: rgba(20, 16, 36, 0.7);
+}
+
+.benefits {
+  padding: 100px 0;
+}
+
+.benefits__title {
+  margin-bottom: 60px;
+  font-size: 50px;
+  font-weight: 600;
+  color: #141024;
+}
+
+.benefits__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
 }/*# sourceMappingURL=main.css.map */
