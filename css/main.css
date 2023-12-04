@@ -117,4 +117,19 @@ legend {
   max-width: 1750px;
 }
 
-/*font-family: 'Jost', sans-serif;*//*# sourceMappingURL=main.css.map */
+/*font-family: 'Jost', sans-serif;*/
+body {
+  font-family: "Jost", sans-serif;
+  line-height: 1.6;
+}
+
+.header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #141024;
+  color: #fff;
+}
+
+.header__nav {
+  margin-bottom: 85px;
+}/*# sourceMappingURL=main.css.map */
