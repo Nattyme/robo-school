@@ -1,16 +1,26 @@
 .nav {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
 .nav__logo {
-
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
 }
 
 .nav__list {
+    display: flex;
+    gap: 40px;
 
+    a {
+        font-size: 20px;
+        color: #fff;
+    }
 }
 
 .nav__phone {
-
+    font-size: 30px;
+    font-weight: 600;
 }

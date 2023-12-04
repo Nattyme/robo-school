@@ -134,7 +134,32 @@ body {
   margin-bottom: 85px;
 }
 
+.header__content {
+  max-width: 516px;
+}
+
 .nav {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+}
+
+.nav__logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.nav__list {
+  display: flex;
+  gap: 40px;
+}
+.nav__list a {
+  font-size: 20px;
+  color: #fff;
+}
+
+.nav__phone {
+  font-size: 30px;
+  font-weight: 600;
 }/*# sourceMappingURL=main.css.map */
