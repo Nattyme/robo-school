@@ -123,6 +123,15 @@ body {
   line-height: 1.6;
 }
 
+.btn {
+  display: inline-block;
+  padding: 25px 54px;
+  border-radius: 5px;
+  background: #D52027;
+  font-size: 18px;
+  color: #fff;
+}
+
 .header {
   padding-top: 30px;
   height: 1080px;
@@ -132,8 +141,9 @@ body {
 
 .header__row {
   padding-top: 85px;
+  padding-right: 113px;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   gap: 28px;
 }
 
@@ -151,15 +161,6 @@ body {
 .header__text {
   margin-bottom: 50px;
   font-size: 20px;
-}
-
-.header__btn {
-  display: inline-block;
-  padding: 25px 54px;
-  border-radius: 5px;
-  background: #D52027;
-  font-size: 18px;
-  color: #fff;
 }
 
 .header__img--wrapper {
@@ -199,4 +200,8 @@ body {
 .nav__phone {
   font-size: 30px;
   font-weight: 600;
+}
+
+.statistic {
+  padding: 120px 0;
 }/*# sourceMappingURL=main.css.map */

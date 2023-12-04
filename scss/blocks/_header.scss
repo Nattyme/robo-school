@@ -5,14 +5,12 @@
     color: #fff;
 }
 
-.header__nav {
-
-}
-
 .header__row {
     padding-top: 85px;
+    padding-right: 113px;
+
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     gap: 28px;
 }
 
@@ -30,16 +28,6 @@
 .header__text {
     margin-bottom: 50px;
     font-size: 20px;
-}
-
-.header__btn {
-    display: inline-block;
-    padding: 25px 54px;
-    border-radius: 5px;
-    background: #D52027;
-
-    font-size: 18px;
-    color:#fff;
 }
 
 .header__img--wrapper {
