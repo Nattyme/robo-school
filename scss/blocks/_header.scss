@@ -11,11 +11,14 @@
 }
 
 .header__row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 28px;
 }
 
 .header__content {
     max-width: 516px;
-    margin-top: 266px;
 }
 
 .header__title {
@@ -37,4 +40,8 @@
 
     font-size: 18px;
     color:#fff;
+}
+
+.header__img {
+
 }
