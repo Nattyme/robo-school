@@ -1,23 +1,23 @@
 .header {
     padding-top: 30px;
-    padding-bottom: 30px;
     height: 1080px;
     background: #141024;
     color: #fff;
 }
 
 .header__nav {
-    margin-bottom: 85px;
+
 }
 
 .header__row {
+    padding-top: 85px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     gap: 28px;
 }
 
 .header__content {
+    margin-top: 181px;
     max-width: 516px;
 }
 
@@ -42,6 +42,19 @@
     color:#fff;
 }
 
-.header__img {
+.header__img--wrapper {
+    position: relative;
+    height: 917px;
+    padding-top: 100px;
+}
 
+.header__img {
+  
+}
+
+.header__img--student {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
 }
