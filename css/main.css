@@ -113,7 +113,7 @@ legend {
   max-width: 1190px;
   margin: 0 auto;
 }
-.container--container-wide {
+.container--wide {
   max-width: 1750px;
 }
 
@@ -132,4 +132,9 @@ body {
 
 .header__nav {
   margin-bottom: 85px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */
