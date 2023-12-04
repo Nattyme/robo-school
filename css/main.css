@@ -126,6 +126,7 @@ body {
 .header {
   padding-top: 30px;
   padding-bottom: 30px;
+  height: 1080px;
   background: #141024;
   color: #fff;
 }
@@ -136,6 +137,27 @@ body {
 
 .header__content {
   max-width: 516px;
+  margin-top: 266px;
+}
+
+.header__title {
+  margin-bottom: 20px;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.header__text {
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.header__btn {
+  display: inline-block;
+  padding: 25px 54px;
+  border-radius: 5px;
+  background: #D52027;
+  font-size: 18px;
+  color: #fff;
 }
 
 .nav {
