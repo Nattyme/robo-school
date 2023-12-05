@@ -119,6 +119,7 @@ legend {
 
 /*font-family: 'Jost', sans-serif;*/
 body {
+  position: relative;
   font-family: "Jost", sans-serif;
   line-height: 1.6;
 }
@@ -136,6 +137,11 @@ body {
   font-size: 18px;
   color: #D52027;
   cursor: pointer;
+}
+
+.btn-close {
+  font-size: 18px;
+  color: rgba(20, 16, 36, 0.7);
 }
 
 .header {
@@ -312,13 +318,34 @@ body {
   margin-top: 0.3em;
 }
 
+.help {
+  height: 1599px;
+}
+
+.fade-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(20, 16, 36, 0.1);
+}
+
+.modal-window {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .card {
   padding: 40px;
-  max-width: 940px;
+  width: 940px;
   height: 768px;
   display: flex;
   flex-direction: column;
   gap: 40px;
+  background: #fff;
 }
 
 .card__header {
