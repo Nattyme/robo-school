@@ -1,0 +1,30 @@
+.cta {
+    padding: 87px 0;
+    background: #D52027;
+}
+
+.cta__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 5fr);
+    column-gap: 40px;
+}
+
+.cta__text {
+}
+
+.cta__text-title {
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: #fff;
+}
+
+.cta__text-subtitle {
+    font-size: 20px;
+    line-height: 1.3;
+    color: #fff;
+}
+
+.cta__form--wrapper {
+}

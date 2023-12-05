@@ -2,7 +2,6 @@
 const button = document.querySelector('[data-modal-button]');
 const modal = document.querySelector('[data-modal]');
 const buttonClose = document.querySelector('[data-modal-close]');
-
 const offers = document.querySelectorAll('.offer');
 
 
