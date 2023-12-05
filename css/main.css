@@ -202,55 +202,46 @@ body {
   font-weight: 600;
 }
 
-.statistic {
+.statistics {
   padding: 120px 0;
 }
 
-.statistic__top {
+.statistics__top {
   margin-bottom: 60px;
 }
 
-.statistic__top-title {
+.statistics__top-title {
   font-size: 30px;
   color: #141024;
 }
-.statistic__top-title strong {
+.statistics__top-title strong {
   font-weight: 600;
 }
 
-.statistic__grid {
+.statistics__grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px;
 }
 
-.card {
+.statistic {
   max-width: 260px;
 }
-.card--width-360 {
-  max-width: 360px;
-}
 
-.card__title {
+.statistic__title {
   font-size: 70px;
   font-weight: 600;
   color: #D52027;
 }
-.card__title--black {
-  font-size: 24px;
-  color: #141024;
-}
-.card__title--margin-20 {
-  margin-bottom: 20px;
-}
 
-.card__desc {
+.statistic__desc {
   font-size: 18px;
   color: rgba(20, 16, 36, 0.7);
 }
 
 .benefits {
   padding: 100px 0;
+  background-color: #F9F9F9;
 }
 
 .benefits__title {
@@ -264,4 +255,24 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
+}
+
+.card-benefit {
+  max-width: 360px;
+}
+
+.card-benefit__title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #141024;
+}
+
+.card-benefit__desc {
+  font-size: 18px;
+  color: rgba(20, 16, 36, 0.7);
+}
+
+.teachers {
+  padding: 120px 0;
 }/*# sourceMappingURL=main.css.map */
