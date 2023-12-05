@@ -1,12 +1,14 @@
 .card {
     padding: 40px;
     max-width: 940px;
-    height: 786px;
+    height: 768px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .card__header {
-    margin-bottom: 40px;
-
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -56,19 +58,3 @@
 .card__bottom {
 }
 
-/* tab*/
-
-.card__tub {
-    // display: grid;
-    // grid-template-columns: repeat(3, 1fr);
-}
-
-.tub {
-}
-
-.tub__title {
-    margin-bottom: 40px;
-}
-
-.tub__title--active {
-}

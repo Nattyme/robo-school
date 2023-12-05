@@ -315,11 +315,13 @@ body {
 .card {
   padding: 40px;
   max-width: 940px;
-  height: 786px;
+  height: 768px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .card__header {
-  margin-bottom: 40px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -363,7 +365,34 @@ body {
   cursor: pointer;
 }
 
-/* tab*/
-.tub__title {
+.tub--wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.tub {
+  text-align: left;
+  font-size: 20px;
+  color: #141024;
+}
+.tub--active {
+  color: #D52027;
+}
+
+.tub__subtitle {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #141024;
+}
+
+.tub__content {
   margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.tub__list {
+  margin-bottom: 40px;
+  font-size: 20px;
+  color: #141024;
 }/*# sourceMappingURL=main.css.map */
