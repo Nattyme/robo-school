@@ -27,6 +27,9 @@ for (let offer of offers) {
     offer.onmouseover = function(){
         offer.classList.add('offer--active');
     };
+    offer.onmouseout = function(){
+        offer.classList.remove('offer--active');
+    }
 }
 
 

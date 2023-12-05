@@ -10,6 +10,7 @@
 }
 
 .offers__wrapper {
+    height: 500px;
     display: grid;
     grid-template-columns: repeat(3, 4fr);
     gap: 40px;
