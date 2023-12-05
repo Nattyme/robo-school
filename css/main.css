@@ -441,7 +441,11 @@ body {
 }
 
 .offer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
   padding: 40px;
+  height: 460px;
   border-radius: 20px;
   border: 1px solid rgba(20, 16, 36, 0.2);
   text-align: center;
@@ -462,10 +466,10 @@ body {
 
 .offer__text {
   font-size: 18px;
-  margin-bottom: 61px;
 }
 
 .offer__btn {
+  margin-top: auto;
   padding: 25px 54px;
   border-radius: 5px;
   background: #D52027;
@@ -474,14 +478,11 @@ body {
 }
 
 .offer--active {
+  height: 500px;
   background: #141024;
   color: #fff;
 }
 
 .offer--active .offer__title {
   margin-bottom: 83px;
-}
-
-.offer--active .offer__text {
-  margin-bottom: 52px;
 }/*# sourceMappingURL=main.css.map */

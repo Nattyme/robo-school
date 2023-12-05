@@ -3,6 +3,8 @@ const button = document.querySelector('[data-modal-button]');
 const modal = document.querySelector('[data-modal]');
 const buttonClose = document.querySelector('[data-modal-close]');
 
+const offers = document.querySelectorAll('.offer');
+
 
 // Прослушиваем клик на кнопке Открытия, открываем модалку
 button.addEventListener('click', function(){ 
@@ -16,6 +18,20 @@ buttonClose.addEventListener('click', function(){
 })
 
 modal.addEventListener('click', function(){
-    console.log('close modal');
+   
     
-})
+});
+
+// offer section card color change
+for (let offer of offers) {
+    offer.onmouseover = function(){
+        offer.classList.add('offer--active');
+    };
+}
+
+
+// const mouseoutHandler = function(){
+//     offer.classList.remove('offer--active');
+// }
+// offer.onmouseout = mouseoutHandler;
+console.log(offers)
