@@ -1,22 +1,74 @@
 .card {
-    width: 940px;
-    height: 768px;
+    padding: 40px;
+    max-width: 940px;
+    height: 786px;
 }
 
 .card__header {
+    margin-bottom: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
-.card__header-img {
+.card__header-profile {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
 }
 
-.card__header-disc {
+.profile-img {
+
+    img {
+        border-radius: 20px;
+    }
 }
 
-.card__header-name {
+.profile__text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.card_header-text {
+.profile__text-name {
+    font-size: 24px;
+    font-weight: 600;
+    color: #141024;
 }
 
-.card__header-socials {
+.profile__text-desc {
+    font-size: 18px;
+    color: rgba(20, 16, 36, 0.70);
+}
+
+.profile__text-socials {
+    display: flex;
+    gap: 10px;
+}
+
+.card__header-btn {
+    font-size: 18px;
+    color: rgba(20, 16, 36, 0.70);
+    cursor: pointer;
+}
+
+.card__bottom {
+}
+
+/* tab*/
+
+.card__tub {
+    // display: grid;
+    // grid-template-columns: repeat(3, 1fr);
+}
+
+.tub {
+}
+
+.tub__title {
+    margin-bottom: 40px;
+}
+
+.tub__title--active {
 }

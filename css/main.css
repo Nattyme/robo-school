@@ -132,6 +132,12 @@ body {
   color: #fff;
 }
 
+.btn-outline {
+  font-size: 18px;
+  color: #D52027;
+  cursor: pointer;
+}
+
 .header {
   padding-top: 30px;
   height: 1080px;
@@ -283,15 +289,6 @@ body {
   max-width: 360px;
 }
 
-.teacher__link {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  cursor: pointer;
-}
-
 .teacher__img {
   margin-bottom: 20px;
 }
@@ -315,12 +312,58 @@ body {
   margin-top: 0.3em;
 }
 
-.teacher__read-more {
-  font-size: 18px;
-  color: #D52027;
+.card {
+  padding: 40px;
+  max-width: 940px;
+  height: 786px;
 }
 
-.card {
-  width: 940px;
-  height: 768px;
+.card__header {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card__header-profile {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.profile-img img {
+  border-radius: 20px;
+}
+
+.profile__text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profile__text-name {
+  font-size: 24px;
+  font-weight: 600;
+  color: #141024;
+}
+
+.profile__text-desc {
+  font-size: 18px;
+  color: rgba(20, 16, 36, 0.7);
+}
+
+.profile__text-socials {
+  display: flex;
+  gap: 10px;
+}
+
+.card__header-btn {
+  font-size: 18px;
+  color: rgba(20, 16, 36, 0.7);
+  cursor: pointer;
+}
+
+/* tab*/
+.tub__title {
+  margin-bottom: 40px;
 }/*# sourceMappingURL=main.css.map */

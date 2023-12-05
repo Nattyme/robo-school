@@ -111,7 +111,6 @@
             <div class="container">
                 <div class="teachers__grid">
                     <div class="teacher">
-                        <div class="teacher__link"></div>
                         <div class="teacher__img">
                             <img src="./img/teachers/IrinaLaim.jpg" alt="">
                         </div>
@@ -121,25 +120,60 @@
                         <div class="teacher__text">
                             <p>преподаватель по робототехнике</p>
                         </div>
-                        <div class="teacher__read-more">Подробнее</div>
+                        <!-- button open modal -->
+                        <button 
+                        data-modal-button="modal-1"
+                        class="btn-outline mb-1"
+                        type="button">
+                        Подробнее
+                        </button>
+                        <!-- // button -->
                     </div>
-                    <div class="card">
-                        <div class="card-open__header">
-                            <div class="card-open__header-img">
-                                <img src="./img/teachers/card-open/marina-osipova-open.jpg" alt="">
-                            </div>
-                            <div class="card-open__header-disc">
-                                <h3 class="card-open__header-name">Марина Орлова</h3>
-                                <div class="card-open_header-text">
-                                    <p>преподаватель по робототехнике</p>
+                    <!-- Modal 1 -->
+                    <div id="modal-1" class="card">
+                        <div class="card__header">
+                            <div class="card__header-profile">
+                                <div class="profile-img">
+                                    <img src="./img/teachers/card-open/marina-osipova-open.jpg" alt="">
                                 </div>
-                                <div class="card-open__header-socials">
-                                    <img src="./img/teachers/card-open/socials/facebook.svg" alt="">
-                                    <img src="./img/teachers/card-open/socials/instagram.svg" alt="">
+                                <div class="profile__text">
+                                    <h3 class="profile__text-name">Марина Орлова</h3>
+                                    <div class="profile__text-desc">
+                                        <p>преподаватель по робототехнике</p>
+                                    </div>
+                                    <div class="profile__text-socials">
+                                        <img src="./img/teachers/card-open/socials/facebook.svg" alt="">
+                                        <img src="./img/teachers/card-open/socials/instagram.svg" alt="">
+                                    </div>
                                 </div>
                             </div>
+                            <!-- button close modal -->
+                            <button 
+                            data-modal-close
+                            class="btn-close"
+                            type="button">
+                            Закрыть
+                        </button>
+                        <!-- // button -->
                         </div>
-                    </div>
+                        <div class="card__tub">
+                            <div class="tub">
+                                <h4 class="tub__title tub__title--active">Образование</h4>
+                                <ul class="tub__list">
+                                    <li>Сентябрь 1995 — Июнь 2000</li>
+                                    <li>Санкт-Петербургский политехнический университет Петра Великого</li>
+                                    <li>Факультет: Компьютерных наук и технологий</li>
+                                    <li>Специальность: Математика и компьютерные науки</li>
+                                    <li>Форма обучения: Очная</li>
+                                </ul>
+                            </div>
+                            <!-- <div class="tub">
+                                <h4 class="tub__title">Опыт работы</h4>
+                            </div>
+                            <div class="tub">
+                                <h4 class="tub__title">Награды</h4>
+                            </div> -->
+                        </div>
                 </div>
             </div>
         </section>
