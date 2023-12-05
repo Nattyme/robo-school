@@ -424,4 +424,64 @@ body {
 
 .offers {
   padding: 120px 0;
+}
+
+.offers__title {
+  margin-bottom: 60px;
+  font-size: 50px;
+  font-weight: 600;
+  color: #141024;
+}
+
+.offers__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 4fr);
+  gap: 40px;
+  align-items: center;
+}
+
+.offer {
+  padding: 40px;
+  border-radius: 20px;
+  border: 1px solid rgba(20, 16, 36, 0.2);
+  text-align: center;
+  color: #141024;
+}
+
+.offer__title {
+  margin-bottom: 63px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.offer__price {
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.offer__text {
+  font-size: 18px;
+  margin-bottom: 61px;
+}
+
+.offer__btn {
+  padding: 25px 54px;
+  border-radius: 5px;
+  background: #D52027;
+  font-size: 18px;
+  color: #FFF;
+}
+
+.offer--active {
+  background: #141024;
+  color: #fff;
+}
+
+.offer--active .offer__title {
+  margin-bottom: 83px;
+}
+
+.offer--active .offer__text {
+  margin-bottom: 52px;
 }/*# sourceMappingURL=main.css.map */
