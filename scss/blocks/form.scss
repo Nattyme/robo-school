@@ -1,0 +1,28 @@
+.form {
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input {
+    padding: 19px 20px;
+    border-radius: 5px;
+    background: #f6f6f6;
+
+    font-size: 18px;
+    line-height: normal;
+    color: rgba(40, 41, 68, 0.70);
+}
+
+.form-btn {
+    padding: 19px 19px;
+    border-radius: 5px;
+    background: #141024;
+
+    text-align: center;
+    font-size: 18px;
+    line-height: normal;
+    color: #FFF;
+}

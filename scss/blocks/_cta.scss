@@ -4,8 +4,10 @@
 }
 
 .cta__grid {
+    padding: 0 60px;
+    
     display: grid;
-    grid-template-columns: repeat(2, 5fr);
+    grid-template-columns: 6fr 6fr;
     column-gap: 40px;
 }
 

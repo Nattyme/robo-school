@@ -494,8 +494,9 @@ body {
 }
 
 .cta__grid {
+  padding: 0 60px;
   display: grid;
-  grid-template-columns: repeat(2, 5fr);
+  grid-template-columns: 6fr 6fr;
   -moz-column-gap: 40px;
        column-gap: 40px;
 }
@@ -512,4 +513,30 @@ body {
   font-size: 20px;
   line-height: 1.3;
   color: #fff;
+}
+
+.form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  padding: 19px 20px;
+  border-radius: 5px;
+  background: #f6f6f6;
+  font-size: 18px;
+  line-height: normal;
+  color: rgba(40, 41, 68, 0.7);
+}
+
+.form-btn {
+  padding: 19px 19px;
+  border-radius: 5px;
+  background: #141024;
+  text-align: center;
+  font-size: 18px;
+  line-height: normal;
+  color: #FFF;
 }/*# sourceMappingURL=main.css.map */
