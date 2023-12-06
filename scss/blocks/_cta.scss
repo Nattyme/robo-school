@@ -1,15 +1,20 @@
 .cta {
-    position: relative;
+    
     background: #D52027;
 }
 
 .cta__grid {
-    padding: 0 60px;
-    padding-top: 87px;
+    z-index: 1;
+    position: relative;
+    padding: 87px 60px;
 
     display: grid;
     grid-template-columns: 6fr 6fr;
     column-gap: 40px;
+
+    background-image: url(./../img/persent-img.svg);
+    background-repeat: repeat-x;
+    background-position: bottom;
 }
 
 .cta__text {
@@ -33,6 +38,14 @@
 .cta__form--wrapper {
 }
 
-.cta__img {
-   z-index: 1;
-}
+// .cta__img {
+//     position: absolute;
+//     bottom: 0;
+//     left: 0;
+
+//     content: "";
+//     display: block;
+
+//     height: 120px;
+//     width: 100%;
+// }
