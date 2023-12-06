@@ -1,17 +1,19 @@
 .cta {
-    padding: 87px 0;
+    position: relative;
     background: #D52027;
 }
 
 .cta__grid {
     padding: 0 60px;
-    
+    padding-top: 87px;
+
     display: grid;
     grid-template-columns: 6fr 6fr;
     column-gap: 40px;
 }
 
 .cta__text {
+    margin-top: 19px;
 }
 
 .cta__text-title {
@@ -29,4 +31,8 @@
 }
 
 .cta__form--wrapper {
+}
+
+.cta__img {
+   z-index: 1;
 }
