@@ -211,6 +211,7 @@ body {
 .nav__phone {
   font-size: 30px;
   font-weight: 600;
+  color: #fff;
 }
 
 .statistics {
@@ -547,4 +548,14 @@ body {
   font-size: 18px;
   line-height: normal;
   color: #FFF;
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 71px;
+  background: #141024;
+}
+
+.footer__nav {
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */
