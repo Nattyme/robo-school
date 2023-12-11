@@ -291,7 +291,10 @@ body {
 }
 
 .teachers__grid {
-  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -moz-column-gap: 40px;
+       column-gap: 40px;
 }
 
 .teacher {
