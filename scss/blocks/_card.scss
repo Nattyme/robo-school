@@ -32,36 +32,36 @@
     align-items: flex-start;
 }
 
-.card__header-profile {
+.card__profile {
     display: flex;
     align-items: flex-start;
     gap: 40px;
 }
 
-.profile-img {
+.card__img {
     img {
         border-radius: 20px;
     }
 }
 
-.profile__text {
+.card__text {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.profile__text-name {
+.card__name {
     font-size: 24px;
     font-weight: 600;
     color: #141024;
 }
 
-.profile__text-desc {
+.card__job-information {
     font-size: 18px;
     color: rgba(20, 16, 36, 0.70);
 }
 
-.profile__text-socials {
+.card__socials {
     display: flex;
     gap: 10px;
 }
