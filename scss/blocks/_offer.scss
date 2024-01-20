@@ -10,6 +10,8 @@
 
     text-align: center;
     color: #141024;
+
+    cursor: pointer;
 }
 
 .offer__title {
@@ -25,6 +27,7 @@
 }
 
 .offer__text {
+    height: 58px;
     font-size: 18px;
 }
 

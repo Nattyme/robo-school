@@ -7,6 +7,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./css/main.css">
+
+<!-- Owl Carousel -->
+<link rel="stylesheet" href="./libs/owlCarousel2/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="./libs/owlCarousel2/assets/owl.theme.default.min.css">
+
 <body>
     <header class="header">
         <div class="container container--wide">
@@ -111,29 +116,84 @@
 
         <section class="teachers">
             <div class="container">
-                <div class="teachers__grid">
-                    <div class="teacher">
-                        <div class="teacher__img">
+
+                <div class="teachers__title">
+                    <h2>Профессиональные тренеры</h2>
+                </div>
+
+                <div class="teachers__slider">
+                    <!-- slider -->
+                    <div class="slider owl-carousel owl-theme" id="slider-teachers">
+                        <!-- slider item -->
+                        <div class="slider__item">
+                            <div class="slider__img">
                             <img src="./img/teachers/IrinaLaim.jpg" alt="">
-                        </div>
-                        <div class="teacher__title">
+                             </div>
+                            <div class="slider__title">
                             Ирина Лайм
-                        </div>
-                        <div class="teacher__text">
+                            </div>
+                            <div class="slider__text">
                             <p>преподаватель по робототехнике</p>
+                            </div>
                         </div>
-                        <!-- button open modal -->
-                        <button 
-                        data-modal-button="modal-1"
-                        class="btn-outline mb-1"
-                        type="button">
-                        Подробнее
-                        </button>
-                        <!-- // button -->
+                        <!--// slider item -->
+                        <!-- slider item -->
+                        <div class="slider__item">
+                            <div class="slider__img">
+                            <img src="./img/teachers/IrinaLaim.jpg" alt="">
+                             </div>
+                            <div class="slider__title">
+                            Ирина Лайм
+                            </div>
+                            <div class="slider__text">
+                            <p>преподаватель по робототехнике</p>
+                            </div>
+                        </div>
+                        <!--// slider item -->
+                        <!-- slider item -->
+                        <div class="slider__item">
+                            <div class="slider__img">
+                            <img src="./img/teachers/IrinaLaim.jpg" alt="">
+                             </div>
+                            <div class="slider__title">
+                            Ирина Лайм
+                            </div>
+                            <div class="slider__text">
+                            <p>преподаватель по робототехнике</p>
+                            </div>
+                        </div>
+                        <!--// slider item -->
+                        <!-- slider item -->
+                        <div class="slider__item">
+                            <div class="slider__img">
+                            <img src="./img/teachers/IrinaLaim.jpg" alt="">
+                             </div>
+                            <div class="slider__title">
+                            Ирина Лайм
+                            </div>
+                            <div class="slider__text">
+                            <p>преподаватель по робототехнике</p>
+                            </div>
+                        </div>
+                        <!--// slider item -->
+                        <!-- slider item -->
+                        <div class="slider__item">
+                            <div class="slider__img">
+                            <img src="./img/teachers/IrinaLaim.jpg" alt="">
+                             </div>
+                            <div class="slider__title">
+                            Ирина Лайм
+                            </div>
+                            <div class="slider__text">
+                            <p>преподаватель по робототехнике</p>
+                            </div>
+                        </div>
+                        <!--// slider item -->
                     </div>
-                    <!-- // teacher -->
+                </div>
+                    <!-- // slider -->
                     <!-- Modal 1 -->
-                    <div id="modal-1" data-modal class="fade-block none">
+                    <!-- <div id="modal-1" data-modal class="fade-block none">
                         <div class="modal-window">
                             <div class="card">
                         <div class="card__header">
@@ -153,23 +213,22 @@
                                 </div>
                             </div>
                             <!-- button close modal -->
-                            <button 
+                        <!-- <button 
                             data-modal-close
                             class="btn-close"
                             type="button">
                             Закрыть
                             </button>
-                        <!-- // button -->
-                        </div>
-                                <!-- tabs -->
-                        <div class="tub--wrapper">
+                        </div> -->
+                        <!-- tabs -->
+                        <!-- <div class="tub--wrapper">
                                     <button class="tub tub--active">Образование</button>
                                     <button class="tub">Опыт работы</button>
                                     <button class="tub">Награды</button>
-                        </div>
-                                 <!-- // tabs -->
+                        </div> -->
+                        <!-- // tabs -->
                                 
-                        <div class="tub__content-wrapper tub__content-wrapper--active">
+                        <!-- <div class="tub__content-wrapper tub__content-wrapper--active">
                                     <ul class="tub__content">
                                         <li>Сентябрь 1995 — Июнь 2000</li>
                                         <li>Санкт-Петербургский политехнический университет Петра Великого</li>
@@ -184,56 +243,9 @@
                                         <li>Программа дополнительного образования «3D Моделирование»</li>
                                         <li>Место проведения: Институт дополнительного образования «Политех»</li>
                                     </ul>
-                        </div>
-                        </div>
-                        </div>
-                    </div>
+                        </div> -->
 
-                    <!-- teacher -->
-                    <div class="teacher">
-                        <div class="teacher__img">
-                            <img src="./img/teachers/IrinaLaim.jpg" alt="">
-                        </div>
-                        <div class="teacher__title">
-                            Ирина Лайм
-                        </div>
-                        <div class="teacher__text">
-                            <p>преподаватель по робототехнике</p>
-                        </div>
-                        <!-- button open modal -->
-                        <button 
-                        data-modal-button="modal-1"
-                        class="btn-outline mb-1"
-                        type="button">
-                        Подробнее
-                        </button>
-                        <!-- // button -->
-                    </div>
-
-                    <!-- teacher -->
-                    <div class="teacher">
-                        <div class="teacher__img">
-                            <img src="./img/teachers/IrinaLaim.jpg" alt="">
-                        </div>
-                        <div class="teacher__title">
-                            Ирина Лайм
-                        </div>
-                        <div class="teacher__text">
-                            <p>преподаватель по робототехнике</p>
-                        </div>
-                        <!-- button open modal -->
-                        <button 
-                        data-modal-button="modal-1"
-                        class="btn-outline mb-1"
-                        type="button">
-                        Подробнее
-                        </button>
-                        <!-- // button -->
-                    </div>
-
-                </div>
             </div>
-           
         </section>
 
         <section class="offers">
@@ -316,6 +328,11 @@
         </div>
     </footer>
 
+<!-- libs -->
+<script src="./libs/jquery/jquery-3.7.1.min.js"></script>
+<script src="./libs/owlCarousel2/owl.carousel.min.js"></script>
+
+<!-- Custom JS -->
 <script src="./js/main.js"></script>  
 </body>
 </html>
