@@ -17,7 +17,7 @@ for (let offer of offers) {
 // Вызов карусели
 $(document).ready(function(){
     $("#slider-teachers").owlCarousel({
-        items: 3,
+        items: 4,
         loop: true
     });
   });

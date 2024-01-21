@@ -117,6 +117,10 @@ legend {
   max-width: 1750px;
 }
 
+.container-right {
+  padding-left: calc((100% - 1190px) / 2 + 15px);
+}
+
 /*font-family: 'Jost', sans-serif;*/
 body {
   font-family: "Jost", sans-serif;
@@ -144,10 +148,10 @@ body {
   color: rgba(20, 16, 36, 0.7);
 }
 
-.title-card {
-  font-size: 24px;
+.title {
+  font-size: 50px;
   font-weight: 600;
-  line-height: 1.6; /* 38.4px */
+  line-height: 1.6; /* 80px */
   color: #141024;
 }
 
@@ -177,6 +181,9 @@ body {
 .nav__list a {
   font-size: 20px;
   color: #fff;
+}
+.nav__list a:hover {
+  text-decoration: underline;
 }
 
 .nav__phone {

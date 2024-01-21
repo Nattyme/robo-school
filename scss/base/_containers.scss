@@ -8,24 +8,6 @@
     }
 }
 
-// .container-right {
-//     /* overflow-x: hidden;*/
-//     padding-left: calc (
-//         (100% - var(--container-width)) / 2 + var(--container-padding)
-//     );
-
-//     @media (max-width: var(--laptop-size)) {
-//         padding-left: var(--container-padding);
-//     }  
-// }
-
-// .container-right {
-//     /* overflow-x: hidden;*/
-//     padding-right: calc (
-//         (100% - var(--container-width)) / 2 + var(--container-padding)
-//     );
-
-//     @media (max-width: var(--laptop-size)) {
-//         padding-right: var(--container-padding);
-//     }  
-// }
+.container-right {
+    padding-left: calc((100% - 1190px) / 2 + 15px);
+}
