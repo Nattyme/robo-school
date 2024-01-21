@@ -1,6 +1,8 @@
-.cta {
-    
-    background: #D52027;
+.cta { 
+    background-color: #D52027;
+    background-image: url(./../img/persent-img.svg);
+    background-position: bottom; // x y
+    background-repeat: repeat-x;
 }
 
 .cta__grid {
@@ -11,10 +13,6 @@
     display: grid;
     grid-template-columns: 6fr 6fr;
     column-gap: 40px;
-
-    background-image: url(./../img/persent-img.svg);
-    background-repeat: repeat-x;
-    background-position: bottom;
 }
 
 .cta__text {

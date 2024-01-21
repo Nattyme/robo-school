@@ -298,11 +298,18 @@ body {
   color: #141024;
 }
 
+.slider__item {
+  min-width: 360px;
+}
+
 .slider__img {
   margin-bottom: 20px;
+  width: 360px;
+  height: 500px;
 }
 .slider__img img {
   border-radius: 20px;
+  height: 100%;
 }
 
 .slider__title {
@@ -319,6 +326,12 @@ body {
 }
 .slider__text p + p {
   margin-top: 0.3em;
+}
+
+.slider__btn {
+  font-size: 18px;
+  line-height: 1.6; /* 28.8px */
+  color: #D52027;
 }
 
 .fade-block {
@@ -492,7 +505,10 @@ body {
 }
 
 .cta {
-  background: #D52027;
+  background-color: #D52027;
+  background-image: url(./../img/persent-img.svg);
+  background-position: bottom;
+  background-repeat: repeat-x;
 }
 
 .cta__grid {
@@ -503,9 +519,6 @@ body {
   grid-template-columns: 6fr 6fr;
   -moz-column-gap: 40px;
        column-gap: 40px;
-  background-image: url(./../img/persent-img.svg);
-  background-repeat: repeat-x;
-  background-position: bottom;
 }
 
 .cta__text {

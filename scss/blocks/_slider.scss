@@ -1,9 +1,17 @@
+.slider__item {
+    min-width: 360px;
+}
+
 .slider__img {
     margin-bottom: 20px;
 
+    width: 360px;
+    height: 500px;
     img {
         border-radius: 20px;
+        height: 100%;
     }
+    
 }
 
 .slider__title {
@@ -21,4 +29,10 @@
     & p + p {
         margin-top: 0.3em;
     }
+}
+
+.slider__btn {
+    font-size: 18px;
+    line-height: 1.6; /* 28.8px */
+    color: #D52027;
 }
