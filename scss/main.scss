@@ -1,22 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,600;1,700&display=swap');
 
+// base
+@import "./base/vars";
 @import './base/reset';
 @import './base/utils';
 @import './base/containers';
 @import './base/base';
+
+// blocks
 @import './blocks/btn';
-@import './blocks/header';
+@import './blocks/title-card';
+@import './blocks/title-card';
 @import './blocks/nav';
-@import './blocks/statistics';
 @import './blocks/statistic';
-@import './blocks/benefits';
 @import './blocks/benefit';
-@import './blocks/teachers';
 @import './blocks/slider';
-@import './blocks/card';
-@import './blocks/tubs';
-@import './blocks/offers';
 @import './blocks/offer';
-@import './blocks/cta';
 @import './blocks/form.scss';
+
+//sections
+@import './blocks/header';
+@import './blocks/statistics';
+@import './blocks/benefits';
+@import './blocks/teachers';
+@import './blocks/offers';
+@import './blocks/cta';
 @import './blocks/footer';

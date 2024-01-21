@@ -9,7 +9,7 @@
 .form__input {
     padding: 19px 20px;
     border-radius: 5px;
-    background: #f6f6f6;
+    background-color: #f6f6f6;
 
     font-size: 18px;
     line-height: normal;
@@ -19,10 +19,10 @@
 .form__btn {
     padding: 19px 19px;
     border-radius: 5px;
-    background: #141024;
-
+    
     text-align: center;
     font-size: 18px;
     line-height: normal;
-    color: #FFF;
+    background-color: $formBtn;
+    color: #fff;
 }

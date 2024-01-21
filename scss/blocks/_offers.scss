@@ -4,16 +4,14 @@
 
 .offers__title {
     margin-bottom: 60px;
-    font-size: 50px;
-    font-weight: 600;
-    color: #141024;
 }
 
 .offers__wrapper {
     height: 500px;
+
     display: grid;
     grid-template-columns: repeat(3, 4fr);
-    gap: 40px;
     align-items: center;
+    gap: 40px;
 }
 

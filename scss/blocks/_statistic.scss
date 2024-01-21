@@ -5,10 +5,10 @@
 .statistic__title {
     font-size: 70px;
     font-weight: 600;
-    color: #D52027;
+    color: $accentColor;
 }
 
 .statistic__desc {
     font-size: 18px;
-    color: rgba(20, 16, 36, 0.70);
+    color: $textMuted;
 }

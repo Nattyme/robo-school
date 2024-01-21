@@ -10,21 +10,21 @@
     img {
         border-radius: 20px;
         height: 100%;
-    }
-    
+    }   
 }
 
 .slider__title {
     margin-bottom: 10px;
+
     font-size: 24px;
     font-weight: 600;
-    color: #141024;
 }
 
 .slider__text {
     margin-bottom: 20px;
+
     font-size: 18px;
-    color: rgba(20, 16, 36, 0.70);
+    color: $textMuted;
 
     & p + p {
         margin-top: 0.3em;
@@ -33,6 +33,5 @@
 
 .slider__btn {
     font-size: 18px;
-    line-height: 1.6; /* 28.8px */
-    color: #D52027;
+    color: $accentColor;
 }

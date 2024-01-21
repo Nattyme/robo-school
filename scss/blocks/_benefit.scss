@@ -4,12 +4,9 @@
 
 .benefit__title {
     margin-bottom: 20px;
-    font-size: 24px;
-    font-weight: 600;
-    color: #141024;
 }
 
 .benefit__desc {
     font-size: 18px;
-    color: rgba(20, 16, 36, 0.70);
+    color: $textMuted;
 }
