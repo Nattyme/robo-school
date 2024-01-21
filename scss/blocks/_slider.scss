@@ -35,3 +35,27 @@
     font-size: 18px;
     color: $accentColor;
 }
+
+.slider__controls {
+    display: flex;
+    column-gap: 10px;
+  
+    position: absolute;
+    left: 69%;
+    bottom: 0;
+}
+
+.slider__arrow {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider__arrow-left {
+
+}
+
+.slider__arrow--right {
+}

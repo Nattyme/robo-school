@@ -254,6 +254,23 @@ body {
   color: #d52027;
 }
 
+.slider__controls {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  position: absolute;
+  left: 69%;
+  bottom: 0;
+}
+
+.slider__arrow {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .offer {
   display: flex;
   flex-direction: column;
@@ -409,8 +426,9 @@ body {
   gap: 40px;
 }
 
-.teachers {
+.teaxhers__row {
   padding: 120px 0;
+  position: relative;
 }
 
 .teachers__title {

@@ -18,6 +18,10 @@ for (let offer of offers) {
 $(document).ready(function(){
     $("#slider-teachers").owlCarousel({
         items: 4,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
         loop: true
     });
   });
