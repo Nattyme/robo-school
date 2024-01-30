@@ -14,36 +14,50 @@
 
 <body>
     <header class="header">
-        <div class="container container--wide">
-            <div class="header__nav">
-                <nav class="nav">
-                    <a class="nav__logo" href="#!">ROBO.SCHOOL</a>
-                    <ul class="nav__list">
-                        <li><a href="#!">О школе</a></li>
-                        <li><a href="#!">Тренеры</a></li>
-                        <li><a href="#!">Стоимость</a></li>
-                    </ul>
-                    <span class="nav__phone">+7 800 000 11 22</span>
-                </nav>
+
+            <!-- header-top -->
+            <div class="header-top">
+                <div class="container container--wide">
+                    <div class="header-top__nav">
+                        <a class="header-top__logo" href="#!">ROBO.SCHOOL</a>
+
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li><a class="link" href="#!">О школе</a></li>
+                                <li><a class="link" href="#!">Тренеры</a></li>
+                                <li><a class="link" href="#!">Стоимость</a></li>
+                            </ul>
+                        </nav>
+
+                        <a href="tel:+78000001122" class="header-top__phone link">+7 800 000 11 22</a>
+                    </div>
+                </div>
+                <!--// header-top -->
             </div>
-            <!-- //nav -->
+
             <div class="header__row">
+                <div class="container">
                     <div class="header__content">
-                        <h1 class="header__title">ROBO SCHOOL</h1>
                         <div class="header__text">
-                            <p>Курсы повышения квалификации по робототехнике<br>для педагогов начальной школы</p>
+                            <h1 class="header__title">ROBO SCHOOL</h1>
+                            <div class="header__desc">
+                                <p>Курсы повышения квалификации по робототехнике<br>для педагогов начальной школы</p>
+                            </div>
+                            <div class="header__btn">
+                                <a class="btn" href="#cta">Записаться на курс</a>
+                            </div>
                         </div>
-                        <div class="header__btn">
-                            <a class="btn" href="#cta">Записаться на курс</a>
+            
+                        <div class="header__img">
+                            <img src="./img/header/header-portrait.png" alt="student">
                         </div>
                     </div>
-                    <div class="header__img--wrapper">
-                        <img class="header__img--student" src="./img/header/header-portrait.png" alt="">
-                        <img class="header__img--ellipse" src="./img/header/Ellipse.svg" alt="">
-                    </div>
+                </div>
+                    
             </div>
         </div>
     </header>
+
     <main>
         <section class="statistics">
             <div class="container">

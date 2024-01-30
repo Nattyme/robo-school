@@ -1,0 +1,28 @@
+.link {
+    position: relative;
+
+    &::after, &::before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 1px;
+        background-color: #fff;
+
+        transition: width 0.3s ease-in;
+    }
+
+    &::after {
+        bottom: -5px;
+        left: 0;
+    }
+
+    &::before {
+        top: -5px;
+        right: 0;
+    }
+
+    &:hover::before,
+    &:hover::after {
+        width: 100%;
+    }
+}

@@ -110,11 +110,11 @@ legend {
 
 .container {
   padding: 0 15px;
-  max-width: 1190px;
+  width: 1223px;
   margin: 0 auto;
 }
 .container--wide {
-  max-width: 1750px;
+  width: 1750px;
 }
 
 .container-right {
@@ -133,8 +133,14 @@ body {
   padding: 25px 54px;
   border-radius: 5px;
   background-color: #D52027;
+  border: 2px solid #D52027;
   font-size: 18px;
   color: #fff;
+  transition: all 0.2s ease-in;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #D52027;
 }
 
 .btn-outline {
@@ -162,16 +168,53 @@ body {
   color: #141024;
 }
 
+.link {
+  position: relative;
+}
+.link::after, .link::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  background-color: #fff;
+  transition: width 0.3s ease-in;
+}
+.link::after {
+  bottom: -5px;
+  left: 0;
+}
+.link::before {
+  top: -5px;
+  right: 0;
+}
+.link:hover::before, .link:hover::after {
+  width: 100%;
+}
+
+.header-top__nav {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.header-top__logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.header-top__phone {
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+}
+
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.nav__logo {
-  font-size: 30px;
-  font-weight: 700;
-  color: #fff;
 }
 
 .nav__list {
@@ -180,15 +223,6 @@ body {
 }
 .nav__list a {
   font-size: 20px;
-  color: #fff;
-}
-.nav__list a:hover {
-  text-decoration: underline;
-}
-
-.nav__phone {
-  font-size: 30px;
-  font-weight: 600;
   color: #fff;
 }
 
@@ -346,23 +380,22 @@ body {
 }
 
 .header {
-  padding-top: 30px;
+  position: relative;
   height: 1080px;
   background-color: #141024;
-  color: #fff;
-}
-
-.header__row {
-  padding-top: 85px;
-  padding-right: 113px;
-  display: flex;
-  justify-content: flex-end;
-  gap: 28px;
 }
 
 .header__content {
+  position: relative;
+  z-index: 2;
+  padding-top: 54px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__text {
   margin-top: 181px;
-  max-width: 516px;
+  color: #fff;
 }
 
 .header__title {
@@ -371,22 +404,43 @@ body {
   font-weight: 600;
 }
 
-.header__text {
+.header__desc {
   margin-bottom: 50px;
   font-size: 20px;
 }
 
-.header__img--wrapper {
+.header__img {
   position: relative;
-  height: 917px;
-  padding-top: 100px;
+}
+.header__img img {
+  width: 516px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.header__img::after {
+  z-index: -1;
+  position: absolute;
+  content: url("./../../img/header/ellipse.svg");
+  width: 783px;
+  height: 783px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.header__img--student {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, 0%);
+.benefits {
+  padding: 100px 0;
+  background-color: #f9f9f9;
+}
+
+.benefits__title {
+  margin-bottom: 60px;
+}
+
+.benefits__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
 }
 
 .statistics {
@@ -408,21 +462,6 @@ body {
 .statistics__grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
-}
-
-.benefits {
-  padding: 100px 0;
-  background-color: #f9f9f9;
-}
-
-.benefits__title {
-  margin-bottom: 60px;
-}
-
-.benefits__grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
   gap: 40px;
 }
 
