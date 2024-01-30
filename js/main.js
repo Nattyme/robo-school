@@ -19,6 +19,7 @@ $(document).ready(function(){
     $("#slider-teachers").owlCarousel({
         items: 3,
         dots: false,
+        margin: 40,
         loop: true
     });
   });

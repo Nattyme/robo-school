@@ -1,3 +1,7 @@
+.teachers__slider {
+    max-width: 1160px;
+}
+
 .slider__item {
     min-width: 360px;
 }
@@ -7,7 +11,10 @@
 
     width: 360px;
     height: 500px;
+    
     img {
+        width: 360px;
+        object-fit: cover;
         border-radius: 20px;
         height: 100%;
     }   
@@ -26,7 +33,7 @@
     font-size: 18px;
     color: $textMuted;
 
-    & p + p {
+    p + p {
         margin-top: 0.3em;
     }
 }
@@ -37,25 +44,37 @@
 }
 
 .slider__controls {
+    padding-top: 60px;
+}
+
+.slider__buttons {
+    position: relative;
+
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
     column-gap: 10px;
-  
-    position: absolute;
-    left: 69%;
-    bottom: 0;
+
+    &::before, &::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        height: 5px;
+        border-radius: 40px;
+    }
+
+    &::after {
+        width: 360px;
+        background-color: rgba(20, 16, 36, 0.08);
+    }
+
+    &::before {
+        width: 260px;
+        background-color: #141024;
+    }
 }
 
 .slider__arrow {
-    height: 40px;
-    width: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.slider__arrow-left {
-
-}
-
-.slider__arrow--right {
+   
 }
