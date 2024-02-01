@@ -9,10 +9,6 @@ for (let offer of offers) {
         offer.classList.remove('offer--active');
     }
 }
-// const mouseoutHandler = function(){
-//     offer.classList.remove('offer--active');
-// }
-// offer.onmouseout = mouseoutHandler;
 
 // Вызов карусели
 $(document).ready(function(){
