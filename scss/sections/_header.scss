@@ -1,31 +1,21 @@
 .header {
-    position: relative;
-    height: 1080px;
+    padding-top: 93px;
     background-color: #141024;
 }
 
 
 .header__row {
-    
-}
-
-.header__content {
-    position: relative;
-    z-index: 2;
-    padding-top: 54px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
 .header__text {
-    margin-top: 181px;
     color: #fff;
 }
 
 .header__title {
     margin-bottom: 20px;
-    font-size: 70px;
-    font-weight: 600;
 }
 
 .header__desc {
@@ -37,27 +27,10 @@
     position: relative;
 
     img {
-        width: 516px;
+        width: 783px;
+        height: 917px;
         object-fit: cover;
 
-    }
-
-    &::after {
-        z-index: -1;
-        position: absolute;
-        content: url("./../../img/header/ellipse.svg");
-        width: 783px;
-        height: 783px;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-  
+    }  
 }
 
-// .header__img--student {
-//     position: absolute;
-//     bottom: 0;
-//     left: 50%;
-//     transform: translate(-50%, 0%);
-// }
