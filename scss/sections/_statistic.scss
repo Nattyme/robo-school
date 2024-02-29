@@ -1,0 +1,37 @@
+.stat {
+    padding: 120px 0;
+}
+
+.stat__header {
+    margin-bottom: 60px;
+    max-width: 900px;
+}
+
+.stat__title {
+    font-size: 30px;
+
+    strong {
+        font-weight: 600;
+    }
+}
+
+.stat__list {
+    display: flex;
+    justify-content: space-between;
+    // flex-wrap: wrap;
+}
+
+.stat__item {
+    max-width: 260px;
+}
+
+.stat__number {
+    font-size: 70px;
+    font-weight: 600;
+    color: $accentColor;
+}
+
+.stat__desc {
+    font-size: 18px;
+    color: $textMuted;
+}
